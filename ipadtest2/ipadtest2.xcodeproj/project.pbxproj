@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF60A1DA20CA09F60056EE66 /* NotificationSender.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60A1D920CA09F60056EE66 /* NotificationSender.m */; };
+		CF60A1DD20CA0BC00056EE66 /* NSNotificationListener.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60A1DC20CA0BC00056EE66 /* NSNotificationListener.m */; };
+		CF60A1E020CA25D80056EE66 /* connectbluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = CF60A1DF20CA25D80056EE66 /* connectbluetooth.m */; };
+		CF71C56220C4D8B300A0C7E8 /* bluetoothViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF71C56120C4D8B300A0C7E8 /* bluetoothViewController.m */; };
+		CF71C56520C4D98200A0C7E8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF71C56420C4D98200A0C7E8 /* CoreBluetooth.framework */; };
+		CF71C56920C5305400A0C7E8 /* bluetoothCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CF71C56820C5305400A0C7E8 /* bluetoothCell.m */; };
+		CF71C57120C53B7300A0C7E8 /* TableViewAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CF71C56C20C53B7300A0C7E8 /* TableViewAnimationKit.m */; };
+		CF71C57220C53B7300A0C7E8 /* UITableView+XSAnimationKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CF71C57020C53B7300A0C7E8 /* UITableView+XSAnimationKit.m */; };
+		CFB35CCD20BF94AB00F45B13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB35CCC20BF94AB00F45B13 /* AppDelegate.m */; };
+		CFB35CD020BF94AB00F45B13 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB35CCF20BF94AB00F45B13 /* ViewController.m */; };
+		CFB35CD320BF94AB00F45B13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB35CD120BF94AB00F45B13 /* Main.storyboard */; };
+		CFB35CD620BF94AB00F45B13 /* ipadtest2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CFB35CD420BF94AB00F45B13 /* ipadtest2.xcdatamodeld */; };
+		CFB35CD820BF94AC00F45B13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFB35CD720BF94AC00F45B13 /* Assets.xcassets */; };
+		CFB35CDB20BF94AC00F45B13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFB35CD920BF94AC00F45B13 /* LaunchScreen.storyboard */; };
+		CFB35CDE20BF94AC00F45B13 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB35CDD20BF94AC00F45B13 /* main.m */; };
+		CFB35CE720BFABF000F45B13 /* optionals.plist in Resources */ = {isa = PBXBuildFile; fileRef = CFB35CE620BFABF000F45B13 /* optionals.plist */; };
+		CFB35CEA20BFAC4200F45B13 /* optionals.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB35CE920BFAC4200F45B13 /* optionals.m */; };
+		CFB35CED20C00F7500F45B13 /* optionalsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB35CEC20C00F7500F45B13 /* optionalsCell.m */; };
+		CFC76B0C20C7CA1200193577 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = CFC76B0A20C7CA1100193577 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CF60A1D820CA09F60056EE66 /* NotificationSender.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationSender.h; sourceTree = "<group>"; };
+		CF60A1D920CA09F60056EE66 /* NotificationSender.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationSender.m; sourceTree = "<group>"; };
+		CF60A1DB20CA0BC00056EE66 /* NSNotificationListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSNotificationListener.h; sourceTree = "<group>"; };
+		CF60A1DC20CA0BC00056EE66 /* NSNotificationListener.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotificationListener.m; sourceTree = "<group>"; };
+		CF60A1DE20CA25D80056EE66 /* connectbluetooth.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = connectbluetooth.h; sourceTree = "<group>"; };
+		CF60A1DF20CA25D80056EE66 /* connectbluetooth.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = connectbluetooth.m; sourceTree = "<group>"; };
+		CF71C56020C4D8B300A0C7E8 /* bluetoothViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bluetoothViewController.h; sourceTree = "<group>"; };
+		CF71C56120C4D8B300A0C7E8 /* bluetoothViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bluetoothViewController.m; sourceTree = "<group>"; };
+		CF71C56420C4D98200A0C7E8 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		CF71C56620C524FB00A0C7E8 /* ipadtest2.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ipadtest2.entitlements; sourceTree = "<group>"; };
+		CF71C56720C5305400A0C7E8 /* bluetoothCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bluetoothCell.h; sourceTree = "<group>"; };
+		CF71C56820C5305400A0C7E8 /* bluetoothCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = bluetoothCell.m; sourceTree = "<group>"; };
+		CF71C56B20C53B7300A0C7E8 /* TableViewAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKit.h; sourceTree = "<group>"; };
+		CF71C56C20C53B7300A0C7E8 /* TableViewAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewAnimationKit.m; sourceTree = "<group>"; };
+		CF71C56D20C53B7300A0C7E8 /* TableViewAnimationKitConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitConfig.h; sourceTree = "<group>"; };
+		CF71C56E20C53B7300A0C7E8 /* TableViewAnimationKitHeaders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewAnimationKitHeaders.h; sourceTree = "<group>"; };
+		CF71C56F20C53B7300A0C7E8 /* UITableView+XSAnimationKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+XSAnimationKit.h"; sourceTree = "<group>"; };
+		CF71C57020C53B7300A0C7E8 /* UITableView+XSAnimationKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+XSAnimationKit.m"; sourceTree = "<group>"; };
+		CFB35CC820BF94AA00F45B13 /* ipadtest2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ipadtest2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFB35CCB20BF94AA00F45B13 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFB35CCC20BF94AB00F45B13 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFB35CCE20BF94AB00F45B13 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFB35CCF20BF94AB00F45B13 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFB35CD220BF94AB00F45B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFB35CD520BF94AB00F45B13 /* ipadtest2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ipadtest2.xcdatamodel; sourceTree = "<group>"; };
+		CFB35CD720BF94AC00F45B13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFB35CDA20BF94AC00F45B13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFB35CDC20BF94AC00F45B13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFB35CDD20BF94AC00F45B13 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFB35CE620BFABF000F45B13 /* optionals.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = optionals.plist; sourceTree = "<group>"; };
+		CFB35CE820BFAC4200F45B13 /* optionals.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = optionals.h; sourceTree = "<group>"; };
+		CFB35CE920BFAC4200F45B13 /* optionals.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = optionals.m; sourceTree = "<group>"; };
+		CFB35CEB20C00F7500F45B13 /* optionalsCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = optionalsCell.h; sourceTree = "<group>"; };
+		CFB35CEC20C00F7500F45B13 /* optionalsCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = optionalsCell.m; sourceTree = "<group>"; };
+		CFC76B0A20C7CA1100193577 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		CFC76B0B20C7CA1200193577 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFB35CC520BF94AA00F45B13 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF71C56520C4D98200A0C7E8 /* CoreBluetooth.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF60A1D120CA09400056EE66 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				CFB35CE820BFAC4200F45B13 /* optionals.h */,
+				CFB35CE920BFAC4200F45B13 /* optionals.m */,
+				CF60A1D820CA09F60056EE66 /* NotificationSender.h */,
+				CF60A1D920CA09F60056EE66 /* NotificationSender.m */,
+				CF60A1DB20CA0BC00056EE66 /* NSNotificationListener.h */,
+				CF60A1DC20CA0BC00056EE66 /* NSNotificationListener.m */,
+			);
+			path = models;
+			sourceTree = "<group>";
+		};
+		CF60A1D320CA095D0056EE66 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				CFB35CD120BF94AB00F45B13 /* Main.storyboard */,
+				CFB35CEB20C00F7500F45B13 /* optionalsCell.h */,
+				CFB35CEC20C00F7500F45B13 /* optionalsCell.m */,
+				CF71C56720C5305400A0C7E8 /* bluetoothCell.h */,
+				CF71C56820C5305400A0C7E8 /* bluetoothCell.m */,
+				CF60A1DE20CA25D80056EE66 /* connectbluetooth.h */,
+				CF60A1DF20CA25D80056EE66 /* connectbluetooth.m */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		CF60A1D420CA099A0056EE66 /* mbprogress */ = {
+			isa = PBXGroup;
+			children = (
+				CFC76B0B20C7CA1200193577 /* MBProgressHUD.h */,
+				CFC76B0A20C7CA1100193577 /* MBProgressHUD.m */,
+			);
+			path = mbprogress;
+			sourceTree = "<group>";
+		};
+		CF60A1D720CA09BE0056EE66 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CFB35CCB20BF94AA00F45B13 /* AppDelegate.h */,
+				CFB35CCC20BF94AB00F45B13 /* AppDelegate.m */,
+				CF71C56020C4D8B300A0C7E8 /* bluetoothViewController.h */,
+				CF71C56120C4D8B300A0C7E8 /* bluetoothViewController.m */,
+				CFB35CCE20BF94AB00F45B13 /* ViewController.h */,
+				CFB35CCF20BF94AB00F45B13 /* ViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		CF71C56320C4D98100A0C7E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF71C56420C4D98200A0C7E8 /* CoreBluetooth.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF71C56A20C53B7300A0C7E8 /* TableViewAnimationKit */ = {
+			isa = PBXGroup;
+			children = (
+				CF71C56B20C53B7300A0C7E8 /* TableViewAnimationKit.h */,
+				CF71C56C20C53B7300A0C7E8 /* TableViewAnimationKit.m */,
+				CF71C56D20C53B7300A0C7E8 /* TableViewAnimationKitConfig.h */,
+				CF71C56E20C53B7300A0C7E8 /* TableViewAnimationKitHeaders.h */,
+				CF71C56F20C53B7300A0C7E8 /* UITableView+XSAnimationKit.h */,
+				CF71C57020C53B7300A0C7E8 /* UITableView+XSAnimationKit.m */,
+			);
+			path = TableViewAnimationKit;
+			sourceTree = "<group>";
+		};
+		CFB35CBF20BF94AA00F45B13 = {
+			isa = PBXGroup;
+			children = (
+				CFB35CCA20BF94AA00F45B13 /* ipadtest2 */,
+				CFB35CC920BF94AA00F45B13 /* Products */,
+				CF71C56320C4D98100A0C7E8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CFB35CC920BF94AA00F45B13 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFB35CC820BF94AA00F45B13 /* ipadtest2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB35CCA20BF94AA00F45B13 /* ipadtest2 */ = {
+			isa = PBXGroup;
+			children = (
+				CF71C56620C524FB00A0C7E8 /* ipadtest2.entitlements */,
+				CF60A1D720CA09BE0056EE66 /* controllers */,
+				CF60A1D120CA09400056EE66 /* models */,
+				CF60A1D320CA095D0056EE66 /* views */,
+				CFB35CE620BFABF000F45B13 /* optionals.plist */,
+				CFB35CD720BF94AC00F45B13 /* Assets.xcassets */,
+				CFB35CD920BF94AC00F45B13 /* LaunchScreen.storyboard */,
+				CFB35CDC20BF94AC00F45B13 /* Info.plist */,
+				CFB35CDD20BF94AC00F45B13 /* main.m */,
+				CFB35CD420BF94AB00F45B13 /* ipadtest2.xcdatamodeld */,
+				CF60A1D420CA099A0056EE66 /* mbprogress */,
+				CF71C56A20C53B7300A0C7E8 /* TableViewAnimationKit */,
+			);
+			path = ipadtest2;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFB35CC720BF94AA00F45B13 /* ipadtest2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFB35CE120BF94AC00F45B13 /* Build configuration list for PBXNativeTarget "ipadtest2" */;
+			buildPhases = (
+				CFB35CC420BF94AA00F45B13 /* Sources */,
+				CFB35CC520BF94AA00F45B13 /* Frameworks */,
+				CFB35CC620BF94AA00F45B13 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ipadtest2;
+			productName = ipadtest2;
+			productReference = CFB35CC820BF94AA00F45B13 /* ipadtest2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFB35CC020BF94AA00F45B13 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = kench;
+				TargetAttributes = {
+					CFB35CC720BF94AA00F45B13 = {
+						CreatedOnToolsVersion = 9.3;
+						SystemCapabilities = {
+							com.apple.NearFieldCommunicationTagReading = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = CFB35CC320BF94AA00F45B13 /* Build configuration list for PBXProject "ipadtest2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFB35CBF20BF94AA00F45B13;
+			productRefGroup = CFB35CC920BF94AA00F45B13 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFB35CC720BF94AA00F45B13 /* ipadtest2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFB35CC620BF94AA00F45B13 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFB35CDB20BF94AC00F45B13 /* LaunchScreen.storyboard in Resources */,
+				CFB35CD820BF94AC00F45B13 /* Assets.xcassets in Resources */,
+				CFB35CE720BFABF000F45B13 /* optionals.plist in Resources */,
+				CFB35CD320BF94AB00F45B13 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFB35CC420BF94AA00F45B13 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF71C56920C5305400A0C7E8 /* bluetoothCell.m in Sources */,
+				CF60A1E020CA25D80056EE66 /* connectbluetooth.m in Sources */,
+				CF60A1DD20CA0BC00056EE66 /* NSNotificationListener.m in Sources */,
+				CF71C57120C53B7300A0C7E8 /* TableViewAnimationKit.m in Sources */,
+				CF71C56220C4D8B300A0C7E8 /* bluetoothViewController.m in Sources */,
+				CFB35CD620BF94AB00F45B13 /* ipadtest2.xcdatamodeld in Sources */,
+				CFC76B0C20C7CA1200193577 /* MBProgressHUD.m in Sources */,
+				CFB35CD020BF94AB00F45B13 /* ViewController.m in Sources */,
+				CFB35CDE20BF94AC00F45B13 /* main.m in Sources */,
+				CF60A1DA20CA09F60056EE66 /* NotificationSender.m in Sources */,
+				CFB35CED20C00F7500F45B13 /* optionalsCell.m in Sources */,
+				CFB35CCD20BF94AB00F45B13 /* AppDelegate.m in Sources */,
+				CF71C57220C53B7300A0C7E8 /* UITableView+XSAnimationKit.m in Sources */,
+				CFB35CEA20BFAC4200F45B13 /* optionals.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CFB35CD120BF94AB00F45B13 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB35CD220BF94AB00F45B13 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFB35CD920BF94AC00F45B13 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFB35CDA20BF94AC00F45B13 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFB35CDF20BF94AC00F45B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFB35CE020BF94AC00F45B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFB35CE220BF94AC00F45B13 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SH3N75AN8Y;
+				INFOPLIST_FILE = ipadtest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.zwu.ipadtest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CFB35CE320BF94AC00F45B13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SH3N75AN8Y;
+				INFOPLIST_FILE = ipadtest2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.zwu.ipadtest2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFB35CC320BF94AA00F45B13 /* Build configuration list for PBXProject "ipadtest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB35CDF20BF94AC00F45B13 /* Debug */,
+				CFB35CE020BF94AC00F45B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFB35CE120BF94AC00F45B13 /* Build configuration list for PBXNativeTarget "ipadtest2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFB35CE220BF94AC00F45B13 /* Debug */,
+				CFB35CE320BF94AC00F45B13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CFB35CD420BF94AB00F45B13 /* ipadtest2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CFB35CD520BF94AB00F45B13 /* ipadtest2.xcdatamodel */,
+			);
+			currentVersion = CFB35CD520BF94AB00F45B13 /* ipadtest2.xcdatamodel */;
+			path = ipadtest2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CFB35CC020BF94AA00F45B13 /* Project object */;
+}
